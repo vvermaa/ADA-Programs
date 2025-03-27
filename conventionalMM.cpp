@@ -27,7 +27,7 @@ vector<vector<int>> multiplyMatrix(const vector<vector<int>>& A, const vector<ve
             A21[i][j] = A[i + half][j]; A22[i][j] = A[i + half][j + half];
             B11[i][j] = B[i][j]; B12[i][j] = B[i][j + half];
             B21[i][j] = B[i + half][j]; B22[i][j] = B[i + half][j + half];
-        }
+        }                                                           
     }
     vector<vector<int>> C11 = addMatrix(multiplyMatrix(A11, B11), multiplyMatrix(A12, B21));
     vector<vector<int>> C12 = addMatrix(multiplyMatrix(A11, B12), multiplyMatrix(A12, B22));
