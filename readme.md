@@ -170,4 +170,10 @@
 
 ---
 
+### 22. **Sum of Subsets Problem**
+- **Problem Type**: Backtracking  
+- **Description**: Given a set of positive integers and a target sum, the problem is to find all subsets of the given set whose sum equals the target value.  
+- **Key Concept**: Backtracking, Subset Generation  
+- **Time Complexity**: O(2^n) in the worst case (since all subsets are checked)  
 
+---
